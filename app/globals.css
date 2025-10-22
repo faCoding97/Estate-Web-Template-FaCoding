@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+/* CSS variables are applied inline on <body> from site.json */
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* Anchor offset for sticky header */
+.anchor-section { scroll-margin-top: 84px; }
+@media (min-width: 768px){ .anchor-section { scroll-margin-top: 96px; } }
+
+/* Map embed */
+.embed-responsive iframe { width: 100%; height: 360px; border: 0; }
+@media (min-width: 768px) { .embed-responsive iframe { height: 460px; } }
+
+/* Hover effect: outline-glow + zoom + shadow deepen */
+.card-hover {
+  transition: transform .25s var(--ease, cubic-bezier(0.22,1,0.36,1)), box-shadow .25s, outline-color .25s;
+  outline: 2px solid transparent;
+  outline-offset: 0;
+}
+.card-hover:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 14px 38px rgba(0,0,0,0.12);
+  outline-color: color-mix(in oklab, var(--brand) 50%, white);
+}
+
+/* Scroll reveal base (also JS-assisted for reduced motion respect) */
+.reveal {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity .6s ease-out, transform .6s ease-out;
+}
+/* Section panel & divider */
+.section-panel { @apply bg-white rounded-2xl shadow-soft p-6 sm:p-8; }
+.section-title { @apply text-2xl sm:text-3xl font-semibold; }
+.section-divider { height: 2px; margin-top: .5rem; background: linear-gradient(to right, var(--brand), transparent); opacity: .35; }

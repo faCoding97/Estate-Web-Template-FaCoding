@@ -1,0 +1,624 @@
+{
+  "theme": {
+    "brand": "#1e3a8a",
+    "accent": "#22c55e",
+    "bg": "#f8fafc",
+    "fg": "#0b1220"
+  },
+  "layout": {
+    "containerMax": "1200px",
+    "sectionY": "64px",
+    "heroHeight": "min(60vh,560px)",
+    "sliderHeight": "min(60vh,560px)"
+  },
+  "locale": "en",
+  "dir": "ltr",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Listings",
+      "href": "/listings"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    },
+    {
+      "label": "Extra (ignored)",
+      "href": "/ignored"
+    }
+  ],
+  "hero": {
+    "slides": [
+      {
+        "eyebrow": "Summerstrand",
+        "title": "Beachfront Apartments with sweeping ocean views",
+        "description": "Wake to the sound of the Indian Ocean \u2014 perfect for lock-up-and-go living.",
+        "primaryCta": {
+          "label": "Browse listings",
+          "href": "/listings"
+        },
+        "image": "/images/hero/slide1.png",
+        "alt": "Beachfront apartments in Summerstrand"
+      },
+      {
+        "eyebrow": "Walmer",
+        "title": "Leafy family homes minutes from top schools",
+        "description": "Quiet streets, big gardens and everyday convenience.",
+        "primaryCta": {
+          "label": "Explore homes",
+          "href": "/listings"
+        },
+        "image": "/images/hero/slide2.png",
+        "alt": "Family homes in Walmer"
+      },
+      {
+        "eyebrow": "Humewood",
+        "title": "Modern city living close to the beachfront",
+        "description": "Renovated apartments with secure parking and sea breeze.",
+        "primaryCta": {
+          "label": "See apartments",
+          "href": "/listings"
+        },
+        "image": "/images/hero/slide3.png",
+        "alt": "Humewood city living"
+      }
+    ]
+  },
+  "valueProps": [
+    {
+      "title": "Local Expertise",
+      "description": "Decades of experience across Summerstrand, Walmer, Humewood and surroundings."
+    },
+    {
+      "title": "Transparent Fees",
+      "description": "Clear commission structures and itemised marketing costs \u2014 no surprises."
+    },
+    {
+      "title": "Private Viewings",
+      "description": "We arrange convenient, one-on-one viewings matched to your schedule."
+    }
+  ],
+  "features": [
+    {
+      "title": "In\u2011house Marketing",
+      "description": "From copywriting to floorplans and video, we showcase your property professionally."
+    },
+    {
+      "title": "Professional Photography",
+      "description": "Bright, crisp visuals help your listing stand out in crowded feeds."
+    },
+    {
+      "title": "Buyer Guidance",
+      "description": "We coordinate offers, bond pre\u2011approvals and key steps through to transfer."
+    }
+  ],
+  "listings": [
+    {
+      "id": "est-1",
+      "title": "3-Bedroom Family Home in Walmer",
+      "type": "Apartment",
+      "status": "For Sale",
+      "priceZAR": 1690000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "parking": 2,
+      "areaSqm": 55,
+      "erfSqm": null,
+      "suburb": "Newton Park",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "14 Newton Park Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/1.png",
+      "gallery": [
+        "/images/listings/1.png"
+      ],
+      "energyRating": "C",
+      "petsAllowed": false
+    },
+    {
+      "id": "est-2",
+      "title": "Beachfront Apartment in Summerstrand",
+      "type": "Townhouse",
+      "status": "For Sale",
+      "priceZAR": 2250000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 2,
+      "areaSqm": 68,
+      "erfSqm": 500,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "72 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/2.png",
+      "gallery": [
+        "/images/listings/2.png"
+      ],
+      "energyRating": "C",
+      "petsAllowed": true
+    },
+    {
+      "id": "est-3",
+      "title": "Modern Townhouse in Lorraine",
+      "type": "Townhouse",
+      "status": "To Let",
+      "priceZAR": null,
+      "rentPerMonthZAR": 16500,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 1,
+      "areaSqm": 85,
+      "erfSqm": 780,
+      "suburb": "Newton Park",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "42 Newton Park Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/3.png",
+      "gallery": [
+        "/images/listings/3.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": true
+    },
+    {
+      "id": "est-4",
+      "title": "City View Apartment in Humewood",
+      "type": "Townhouse",
+      "status": "For Sale",
+      "priceZAR": 1950000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 2,
+      "areaSqm": 68,
+      "erfSqm": null,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "125 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/4.png",
+      "gallery": [
+        "/images/listings/4.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": true
+    },
+    {
+      "id": "est-5",
+      "title": "Elegant Home near schools in Mill Park",
+      "type": "Townhouse",
+      "status": "For Sale",
+      "priceZAR": 850000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "areaSqm": 110,
+      "erfSqm": 900,
+      "suburb": "Summerstrand",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "161 Summerstrand Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/5.png",
+      "gallery": [
+        "/images/listings/5.png"
+      ],
+      "energyRating": "B",
+      "petsAllowed": true
+    },
+    {
+      "id": "est-6",
+      "title": "Starter House in Fairview",
+      "type": "House",
+      "status": "For Sale",
+      "priceZAR": 1450000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 2,
+      "areaSqm": 180,
+      "erfSqm": null,
+      "suburb": "Summerstrand",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "195 Summerstrand Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/6.png",
+      "gallery": [
+        "/images/listings/6.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": false
+    },
+    {
+      "id": "est-7",
+      "title": "Spacious Family Home in Newton Park",
+      "type": "House",
+      "status": "To Let",
+      "priceZAR": null,
+      "rentPerMonthZAR": 16500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "areaSqm": 55,
+      "erfSqm": 900,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "166 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/7.png",
+      "gallery": [
+        "/images/listings/7.png"
+      ],
+      "energyRating": "B",
+      "petsAllowed": false
+    },
+    {
+      "id": "est-8",
+      "title": "Lock-up-and-go Apartment in Walmer",
+      "type": "House",
+      "status": "To Let",
+      "priceZAR": null,
+      "rentPerMonthZAR": 16500,
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "parking": 2,
+      "areaSqm": 110,
+      "erfSqm": 500,
+      "suburb": "Lorraine",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "97 Lorraine Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/8.png",
+      "gallery": [
+        "/images/listings/8.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": true
+    },
+    {
+      "id": "est-9",
+      "title": "Sunny Townhouse in Lorraine",
+      "type": "Apartment",
+      "status": "For Sale",
+      "priceZAR": 1690000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "parking": 2,
+      "areaSqm": 180,
+      "erfSqm": 780,
+      "suburb": "Humewood",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "176 Humewood Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/9.png",
+      "gallery": [
+        "/images/listings/9.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": true
+    },
+    {
+      "id": "est-10",
+      "title": "Renovated Apartment in Summerstrand",
+      "type": "House",
+      "status": "To Let",
+      "priceZAR": null,
+      "rentPerMonthZAR": 12500,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "parking": 1,
+      "areaSqm": 150,
+      "erfSqm": 780,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "20 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/10.png",
+      "gallery": [
+        "/images/listings/10.png"
+      ],
+      "energyRating": "B",
+      "petsAllowed": false
+    },
+    {
+      "id": "est-11",
+      "title": "Coastal Living in Bluewater Bay",
+      "type": "Townhouse",
+      "status": "For Sale",
+      "priceZAR": 2250000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 1,
+      "areaSqm": 110,
+      "erfSqm": 900,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "31 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/11.png",
+      "gallery": [
+        "/images/listings/11.png"
+      ],
+      "energyRating": "B",
+      "petsAllowed": false
+    },
+    {
+      "id": "est-12",
+      "title": "Quiet Cul-de-sac Home in Walmer Heights",
+      "type": "Apartment",
+      "status": "For Sale",
+      "priceZAR": 850000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "parking": 2,
+      "areaSqm": 130,
+      "erfSqm": null,
+      "suburb": "Humewood",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "58 Humewood Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/12.png",
+      "gallery": [
+        "/images/listings/12.png"
+      ],
+      "energyRating": "B",
+      "petsAllowed": false
+    },
+    {
+      "id": "est-13",
+      "title": "Penthouse Vistas in Humewood",
+      "type": "Apartment",
+      "status": "For Sale",
+      "priceZAR": 950000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "parking": 2,
+      "areaSqm": 75,
+      "erfSqm": null,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "193 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/13.png",
+      "gallery": [
+        "/images/listings/13.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": false
+    },
+    {
+      "id": "est-14",
+      "title": "3-Bedroom Family Home in Walmer",
+      "type": "Townhouse",
+      "status": "For Sale",
+      "priceZAR": 950000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "parking": 1,
+      "areaSqm": 95,
+      "erfSqm": null,
+      "suburb": "Fairview",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "25 Fairview Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/14.png",
+      "gallery": [
+        "/images/listings/14.png"
+      ],
+      "energyRating": "C",
+      "petsAllowed": false
+    },
+    {
+      "id": "est-15",
+      "title": "Beachfront Apartment in Summerstrand",
+      "type": "House",
+      "status": "For Sale",
+      "priceZAR": 950000,
+      "rentPerMonthZAR": null,
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "parking": 1,
+      "areaSqm": 130,
+      "erfSqm": 900,
+      "suburb": "Walmer",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "89 Walmer Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/15.png",
+      "gallery": [
+        "/images/listings/15.png"
+      ],
+      "energyRating": null,
+      "petsAllowed": true
+    },
+    {
+      "id": "est-16",
+      "title": "Modern Townhouse in Lorraine",
+      "type": "Townhouse",
+      "status": "To Let",
+      "priceZAR": null,
+      "rentPerMonthZAR": 10500,
+      "bedrooms": 4,
+      "bathrooms": 1,
+      "parking": 1,
+      "areaSqm": 85,
+      "erfSqm": 620,
+      "suburb": "Humewood",
+      "city": "Gqeberha (Port Elizabeth)",
+      "address": "10 Humewood Road",
+      "highlights": [
+        "Close to shops & schools",
+        "Secure parking",
+        "Modern finishes",
+        "Easy access to main routes"
+      ],
+      "description": "Light-filled interiors, practical layout and a well-positioned address make this property a smart choice for comfortable coastal living.",
+      "image": "/images/listings/16.png",
+      "gallery": [
+        "/images/listings/16.png"
+      ],
+      "energyRating": "D",
+      "petsAllowed": false
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "They priced our Walmer home perfectly and negotiated a clean sale within two weeks.",
+      "name": "Thandi M.",
+      "role": "Seller"
+    },
+    {
+      "quote": "Found a great Summerstrand rental, smooth paperwork and friendly service.",
+      "name": "Andre V.",
+      "role": "Tenant"
+    },
+    {
+      "quote": "Clear communication and professional marketing. Highly recommended.",
+      "name": "Lara P.",
+      "role": "Seller"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I book a viewing?",
+      "a": "Call, WhatsApp or email us with the listing ID. We\u2019ll confirm a convenient time and share directions."
+    },
+    {
+      "q": "Can you help with a home loan (bond)?",
+      "a": "Yes. We can introduce you to local bond originators for pre\u2011approval and best\u2011rate comparisons."
+    },
+    {
+      "q": "What documents are needed to make an offer?",
+      "a": "Typically ID copies, proof of funds or pre\u2011approval, and signed OTP (Offer to Purchase). We\u2019ll guide you through it."
+    },
+    {
+      "q": "Are there additional fees?",
+      "a": "Buyers should budget for transfer costs and bond registration. Tenants should budget for deposit, utility deposits and admin fees."
+    },
+    {
+      "q": "Do you do weekend viewings?",
+      "a": "Yes, by arrangement. We also offer video walk\u2011throughs if you\u2019re out of town."
+    }
+  ],
+  "contact": {
+    "phone": "+27 41 555 1234",
+    "whatsapp": "27415551234",
+    "email": "hello@estate.elixflare.com",
+    "address": "Main Road, Walmer, Gqeberha",
+    "mapQuery": "Estate Elixflare, Port Elizabeth",
+    "mapEmbedSrc": "https://maps.google.com/maps?q=Gqeberha%20(Port%20Elizabeth)&z=12&output=embed"
+  },
+  "routes": {
+    "listingsRoot": "/listings"
+  },
+  "org": {
+    "brandName": "Estate Elixflare",
+    "domain": "https://Estate.elixflare.com",
+    "social": {}
+  }
+}
