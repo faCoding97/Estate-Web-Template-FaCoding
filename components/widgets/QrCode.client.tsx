@@ -1,13 +1,33 @@
-'use client';
+"use client";
 import { QRCodeCanvas } from "qrcode.react";
 import { useRef } from "react";
 
-export default function QrCodeClient({ value, label = "Download PNG" }: { value: string; label?: string }) {
-  const ref = useRef<QRCodeCanvas>(null);
+type QrCodeClientProps = {
+  value: string;
+  label?: string;
+  size?: number;
+  className?: string;
+};
+
+export default function QrCodeClient({
+  value,
+  label = "Download PNG",
+  size = 160,
+  className = "",
+}: QrCodeClientProps) {
+  // به جای useRef<QRCodeCanvas> همین div را نگه می‌داریم
+  const rootRef = useRef<HTMLDivElement | null>(null);
 
   const download = () => {
-    const canvas = (ref.current as any)?.canvasRef?.current as HTMLCanvasElement | null;
+    const container = rootRef.current;
+    if (!container) return;
+
+    // canvas داخلی کامپوننت را پیدا کن
+    const canvas = container.querySelector(
+      "canvas"
+    ) as HTMLCanvasElement | null;
     if (!canvas) return;
+
     const url = canvas.toDataURL("image/png");
     const a = document.createElement("a");
     a.href = url;
@@ -16,9 +36,16 @@ export default function QrCodeClient({ value, label = "Download PNG" }: { value:
   };
 
   return (
-    <div className="inline-flex flex-col items-center gap-2">
-      <QRCodeCanvas value={value} size={160} includeMargin ref={ref as any} />
-      <button onClick={download} className="px-3 py-1.5 rounded-xl bg-[var(--brand)] text-white">{label}</button>
+    <div
+      ref={rootRef}
+      className={`inline-flex flex-col items-center gap-2 ${className}`}>
+      <QRCodeCanvas value={value} size={size} includeMargin />
+      <button
+        type="button"
+        onClick={download}
+        className="px-3 py-1.5 rounded-xl bg-[var(--brand,#16a34a)] text-white">
+        {label}
+      </button>
     </div>
-  )
+  );
 }
